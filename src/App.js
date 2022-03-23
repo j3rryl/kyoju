@@ -12,12 +12,12 @@ function App() {
     <>
     <Navbar />
     <Routes>
-       <Route element={<Home />} path='/kyoju'/>
-       <Route element={<Login/>} path='/kyoju/login'/>
-       <Route element={<Listings/>} path='/kyoju/listings'/>
-       <Route element={<About/>} path='/kyoju/about'/>
-       <Route element={<Bookings/>} path='/kyoju/bookings'/>
-       <Route element={<Register/>} path='/kyoju/login/register'/>
+       <Route element={<Home />} path='/'/>
+       <Route element={<Login/>} path='/login'/>
+       <Route element={<Listings/>} path='/listings'/>
+       <Route element={<About/>} path='/about'/>
+       <Route element={<Bookings/>} path='/bookings'/>
+       <Route element={<Register/>} path='/register'/>
     </Routes>
     </>
   );

@@ -7,19 +7,19 @@ const Navbar = () => {
     <nav className="navbar-links">
         <ul className="list-links">
             <li>
-                <NavLink to='/kyoju'>Home</NavLink>
+                <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-                <NavLink to='/kyoju/listings'>Listings</NavLink>
+                <NavLink to='/listings'>Listings</NavLink>
             </li>
             <li>
-                <NavLink to='/kyoju/login'>Login</NavLink>
+                <NavLink to='/login'>Login</NavLink>
             </li>
             {/* <li>
                 <NavLink to='/'>Bookings</NavLink>
             </li> */}
             <li>
-                <NavLink to='/kyoju/about'>About</NavLink>
+                <NavLink to='/about'>About</NavLink>
             </li>
             
         </ul>

@@ -52,7 +52,7 @@ const Login = () => {
         <input type="submit" value="Login" name='login-btn' className='login-btn'/>
         <ToastContainer />
         <br />
-        <Link to='/kyoju/login/register' className='register-link'>Create an Account?</Link>
+        <Link to='/register' className='register-link'>Create an Account?</Link>
       </form>
       </div>
     </div>

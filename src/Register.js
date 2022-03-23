@@ -79,7 +79,7 @@ function onSubmit(e){
         <input type="submit" value="Register" name='register-btn' className='register-btn'/>
         <ToastContainer />
         <br />
-        <Link to='/kyoju/login' className='login-link'>Have an Account? Log In</Link>
+        <Link to='/login' className='login-link'>Have an Account? Log In</Link>
       </form>
       </div>
     </div>
