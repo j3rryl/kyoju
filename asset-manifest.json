@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kyoju/static/css/main.6b464eed.css",
+    "main.js": "/kyoju/static/js/main.aabe6b6f.js",
+    "static/js/787.ee5dac00.chunk.js": "/kyoju/static/js/787.ee5dac00.chunk.js",
+    "static/media/mombasa-png.png": "/kyoju/static/media/mombasa-png.1b01912c3a602d8f8907.png",
+    "static/media/nairobi.jpg": "/kyoju/static/media/nairobi.af24c9befe9453aa9e8f.jpg",
+    "static/media/nakuru-city.jpg_large": "/kyoju/static/media/nakuru-city.1ca93f63fe5b823b7df0.jpg_large",
+    "static/media/nairobi-city.jpg": "/kyoju/static/media/nairobi-city.e7f6a200dd630c40eb4a.jpg",
+    "static/media/kisumu.jpg": "/kyoju/static/media/kisumu.429614d7adee0bade811.jpg",
+    "static/media/house-now.jpg": "/kyoju/static/media/house-now.f54a0fdcab0fd417fe33.jpg",
+    "static/media/company-vision.jpg": "/kyoju/static/media/company-vision.5eb3cdfd4774448e09f1.jpg",
+    "static/media/developer.jpg": "/kyoju/static/media/developer.726cc000b8eb61086360.jpg",
+    "static/media/mombasa.jpg": "/kyoju/static/media/mombasa.9a60c70c7576ca3b395b.jpg",
+    "static/media/nakuru.jpg": "/kyoju/static/media/nakuru.b7c69ae8872f0be04e71.jpg",
+    "static/media/kisumu-city.jpg": "/kyoju/static/media/kisumu-city.a1c896e0d2278de2531e.jpg",
+    "index.html": "/kyoju/index.html",
+    "main.6b464eed.css.map": "/kyoju/static/css/main.6b464eed.css.map",
+    "main.aabe6b6f.js.map": "/kyoju/static/js/main.aabe6b6f.js.map",
+    "787.ee5dac00.chunk.js.map": "/kyoju/static/js/787.ee5dac00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b464eed.css",
+    "static/js/main.aabe6b6f.js"
+  ]
+}
