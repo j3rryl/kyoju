@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar-links">
         <ul className="list-links">
             <li>
-                <NavLink to='/'>Home</NavLink>
+                <NavLink to='${process.env.PUBLIC_URL}/'>Home</NavLink>
             </li>
             <li>
                 <NavLink to='/listings'>Listings</NavLink>

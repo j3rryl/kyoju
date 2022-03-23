@@ -12,7 +12,7 @@ function App() {
     <>
     <Navbar />
     <Routes>
-       <Route element={<Home />} path='/'/>
+       <Route element={<Home />} path='${process.env.PUBLIC_URL}/'/>
        <Route element={<Login/>} path='/login'/>
        <Route element={<Listings/>} path='/listings'/>
        <Route element={<About/>} path='/about'/>
