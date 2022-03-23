@@ -1,6 +1,17 @@
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import {Image, OrbitControls, Preload, Scroll, ScrollControls, Stars, useScroll} from '@react-three/drei'
 import { Suspense, useRef } from "react"
+import restate1 from './images/restate1.jpg'
+import restate2 from './images/restate2.jpg'
+import restate11 from './images/restate11.jpg'
+import restate12 from './images/restate12.jpg'
+import restate4 from './images/restate4.jpg'
+import restate20 from './images/restate20.jpg'
+import restate24 from './images/restate24.jpg'
+import restate22 from './images/restate22.jpg'
+
+
+
 // import './Home.css'
 function Images(){
   const{width,height}=useThree((state)=>state.viewport)
@@ -19,14 +30,14 @@ function Images(){
   })
   return(
     <group ref={group}>
-      <Image position={[0,1,1]} scale={[10,4.5,3]} url='./images/restate1.jpg'/>
-      <Image position={[1,-3.3,1]} scale={[4,1.8,3]} url='./images/restate2.jpg'/>
-      <Image position={[-3.5,-height+3,1.5]} scale={[4,3,4]} url='./images/restate11.jpg'/>
-      <Image position={[0.2,-height,1]} scale={[4,3,3]} url='./images/restate12.jpg'/>
-      <Image position={[4.5,-height,2]} scale={[6,4,3]} url='./images/restate4.jpg'/>
-      <Image position={[4.5,-height-6.3,1]} scale={[6,4,3]} url='./images/restate20.jpg'/>
-      <Image position={[0.2,-height-7.2,2]} scale={[6,3,3]} url='./images/restate24.jpg'/>
-      <Image position={[-2.5,-height-8.3,1.5]} scale={[6,3,3]} url='./images/restate22.jpg'/>
+      <Image position={[0,1,1]} scale={[10,4.5,3]} url={restate1}/>
+      <Image position={[1,-3.3,1]} scale={[4,1.8,3]} url={restate2}/>
+      <Image position={[-3.5,-height+3,1.5]} scale={[4,3,4]} url={restate11}/>
+      <Image position={[0.2,-height,1]} scale={[4,3,3]} url={restate12}/>
+      <Image position={[4.5,-height,2]} scale={[6,4,3]} url={restate4}/>
+      <Image position={[4.5,-height-6.3,1]} scale={[6,4,3]} url={restate20}/>
+      <Image position={[0.2,-height-7.2,2]} scale={[6,3,3]} url={restate24}/>
+      <Image position={[-2.5,-height-8.3,1.5]} scale={[6,3,3]} url={restate22}/>
 
 
     </group>
