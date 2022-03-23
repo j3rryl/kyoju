@@ -1,14 +1,14 @@
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import {Image, OrbitControls, Preload, Scroll, ScrollControls, Stars, useScroll} from '@react-three/drei'
 import { Suspense, useRef } from "react"
-import restate1 from '.kyoju/images/restate1.jpg'
-import restate2 from '.kyoju/images/restate2.jpg'
-import restate11 from '.kyoju/images/restate11.jpg'
-import restate12 from '.kyoju/images/restate12.jpg'
-import restate4 from '.kyoju/images/restate4.jpg'
-import restate20 from '.kyoju/images/restate20.jpg'
-import restate24 from '.kyoju/images/restate24.jpg'
-import restate22 from '.kyoju/images/restate22.jpg'
+import restate1 from './images/restate1.jpg'
+import restate2 from './images/restate2.jpg'
+import restate11 from './images/restate11.jpg'
+import restate12 from './images/restate12.jpg'
+import restate4 from './images/restate4.jpg'
+import restate20 from './images/restate20.jpg'
+import restate24 from './images/restate24.jpg'
+import restate22 from './images/restate22.jpg'
 
 
 
