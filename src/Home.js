@@ -19,14 +19,14 @@ function Images(){
   })
   return(
     <group ref={group}>
-      <Image position={[0,1,1]} scale={[10,4.5,3]} url='/images/restate1.jpg'/>
-      <Image position={[1,-3.3,1]} scale={[4,1.8,3]} url='/images/restate2.jpg'/>
-      <Image position={[-3.5,-height+3,1.5]} scale={[4,3,4]} url='/images/restate11.jpg'/>
-      <Image position={[0.2,-height,1]} scale={[4,3,3]} url='/images/restate12.jpg'/>
-      <Image position={[4.5,-height,2]} scale={[6,4,3]} url='/images/restate4.jpg'/>
-      <Image position={[4.5,-height-6.3,1]} scale={[6,4,3]} url='/images/restate20.jpg'/>
-      <Image position={[0.2,-height-7.2,2]} scale={[6,3,3]} url='/images/restate24.jpg'/>
-      <Image position={[-2.5,-height-8.3,1.5]} scale={[6,3,3]} url='/images/restate22.jpg'/>
+      <Image position={[0,1,1]} scale={[10,4.5,3]} url='./images/restate1.jpg'/>
+      <Image position={[1,-3.3,1]} scale={[4,1.8,3]} url='./images/restate2.jpg'/>
+      <Image position={[-3.5,-height+3,1.5]} scale={[4,3,4]} url='./images/restate11.jpg'/>
+      <Image position={[0.2,-height,1]} scale={[4,3,3]} url='./images/restate12.jpg'/>
+      <Image position={[4.5,-height,2]} scale={[6,4,3]} url='./images/restate4.jpg'/>
+      <Image position={[4.5,-height-6.3,1]} scale={[6,4,3]} url='./images/restate20.jpg'/>
+      <Image position={[0.2,-height-7.2,2]} scale={[6,3,3]} url='./images/restate24.jpg'/>
+      <Image position={[-2.5,-height-8.3,1.5]} scale={[6,3,3]} url='./images/restate22.jpg'/>
 
 
     </group>
