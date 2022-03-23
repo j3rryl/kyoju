@@ -11,6 +11,7 @@ function App() {
   return (
     <>
     <Navbar />
+    <Home />
     <Routes>
        <Route element={<Home />} path='${process.env.PUBLIC_URL}/'/>
        <Route element={<Login/>} path='/login'/>
