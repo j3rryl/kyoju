@@ -7,19 +7,19 @@ const Navbar = () => {
     <nav className="navbar-links">
         <ul className="list-links">
             <li>
-                <NavLink to='${process.env.PUBLIC_URL}/'>Home</NavLink>
+                <NavLink to='/kyoju'>Home</NavLink>
             </li>
             <li>
-                <NavLink to='listings'>Listings</NavLink>
+                <NavLink to='/kyoju/listings'>Listings</NavLink>
             </li>
             <li>
-                <NavLink to='login'>Login</NavLink>
+                <NavLink to='/kyoju/login'>Login</NavLink>
             </li>
             {/* <li>
                 <NavLink to='/'>Bookings</NavLink>
             </li> */}
             <li>
-                <NavLink to='about'>About</NavLink>
+                <NavLink to='/kyoju/about'>About</NavLink>
             </li>
             
         </ul>
