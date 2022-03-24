@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kyoju/static/css/main.6b464eed.css",
-    "main.js": "/kyoju/static/js/main.aabe6b6f.js",
+    "main.js": "/kyoju/static/js/main.cb65db5c.js",
     "static/js/787.ee5dac00.chunk.js": "/kyoju/static/js/787.ee5dac00.chunk.js",
     "static/media/mombasa-png.png": "/kyoju/static/media/mombasa-png.1b01912c3a602d8f8907.png",
     "static/media/nairobi.jpg": "/kyoju/static/media/nairobi.af24c9befe9453aa9e8f.jpg",
@@ -11,16 +11,24 @@
     "static/media/house-now.jpg": "/kyoju/static/media/house-now.f54a0fdcab0fd417fe33.jpg",
     "static/media/company-vision.jpg": "/kyoju/static/media/company-vision.5eb3cdfd4774448e09f1.jpg",
     "static/media/developer.jpg": "/kyoju/static/media/developer.726cc000b8eb61086360.jpg",
+    "static/media/restate4.jpg": "/kyoju/static/media/restate4.8bd2499ef39a061f693b.jpg",
+    "static/media/restate1.jpg": "/kyoju/static/media/restate1.a94a9518f40eb3e0aa45.jpg",
     "static/media/mombasa.jpg": "/kyoju/static/media/mombasa.9a60c70c7576ca3b395b.jpg",
+    "static/media/restate12.jpg": "/kyoju/static/media/restate12.708845c79cc90091455d.jpg",
+    "static/media/restate2.jpg": "/kyoju/static/media/restate2.0f8d5285c66dcd556f42.jpg",
+    "static/media/restate22.jpg": "/kyoju/static/media/restate22.06f11ded2038443864b2.jpg",
     "static/media/nakuru.jpg": "/kyoju/static/media/nakuru.b7c69ae8872f0be04e71.jpg",
+    "static/media/restate11.jpg": "/kyoju/static/media/restate11.1027fed4de4fb18be036.jpg",
+    "static/media/restate20.jpg": "/kyoju/static/media/restate20.b864b6c67944e43fa771.jpg",
+    "static/media/restate24.jpg": "/kyoju/static/media/restate24.6b841d8a5f7c7228d2f4.jpg",
     "static/media/kisumu-city.jpg": "/kyoju/static/media/kisumu-city.a1c896e0d2278de2531e.jpg",
     "index.html": "/kyoju/index.html",
     "main.6b464eed.css.map": "/kyoju/static/css/main.6b464eed.css.map",
-    "main.aabe6b6f.js.map": "/kyoju/static/js/main.aabe6b6f.js.map",
+    "main.cb65db5c.js.map": "/kyoju/static/js/main.cb65db5c.js.map",
     "787.ee5dac00.chunk.js.map": "/kyoju/static/js/787.ee5dac00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b464eed.css",
-    "static/js/main.aabe6b6f.js"
+    "static/js/main.cb65db5c.js"
   ]
 }
