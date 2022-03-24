@@ -13,11 +13,11 @@ function App() {
     <Navbar />
     <Home />
     <Routes>
-       <Route element={<Home />} path='${process.env.PUBLIC_URL}/'/>
+       <Route element={<Home />} path='/home'/>
        <Route element={<Login/>} path='/login'/>
        <Route element={<Listings/>} path='/listings'/>
        <Route element={<About/>} path='/about'/>
-       <Route element={<Bookings/>} path='/bookings'/>
+       <Route element={<Bookings/>} path='/'/>
        <Route element={<Register/>} path='/register'/>
     </Routes>
     </>
