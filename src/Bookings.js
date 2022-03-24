@@ -4,6 +4,7 @@ const Bookings = () => {
   return (
     <div>
       Bookings
+      <p>Hello  There.</p>
       </div>
   )
 }
