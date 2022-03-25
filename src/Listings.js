@@ -85,7 +85,7 @@ const Listings = () => {
           duration: 0.7
         }
       })
-  gsap.to(cityName, {
+  tl.to(cityName, {
       duration:0,
       attr:{
         src:city
