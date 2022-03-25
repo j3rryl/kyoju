@@ -1,0 +1,16 @@
+.home-page{
+    height: 100%;
+    width: 96%;
+    margin:0 10px;
+}
+.floating-titles {
+    font-size: 3rem;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .home-page{
+    /* height: 50%;
+    width: 100%;
+    margin:0px; */
+}
+  }

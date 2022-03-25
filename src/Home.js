@@ -1,5 +1,6 @@
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import {Image, OrbitControls, Preload, Scroll, ScrollControls, Stars, useScroll} from '@react-three/drei'
+import './home.css'
 import { Suspense, useRef } from "react"
 import restate1 from './images/restate1.jpg'
 import restate2 from './images/restate2.jpg'
@@ -30,14 +31,14 @@ function Images(){
   })
   return(
     <group ref={group}>
-      <Image position={[0,1,1]} scale={[10,4.5,3]} url={restate1}/>
-      <Image position={[1,-3.3,1]} scale={[4,1.8,3]} url={restate2}/>
-      <Image position={[-3.5,-height+3,1.5]} scale={[4,3,4]} url={restate11}/>
-      <Image position={[0.2,-height,1]} scale={[4,3,3]} url={restate12}/>
-      <Image position={[4.5,-height,2]} scale={[6,4,3]} url={restate4}/>
-      <Image position={[4.5,-height-6.3,1]} scale={[6,4,3]} url={restate20}/>
-      <Image position={[0.2,-height-7.2,2]} scale={[6,3,3]} url={restate24}/>
-      <Image position={[-2.5,-height-8.3,1.5]} scale={[6,3,3]} url={restate22}/>
+      <Image position={[0/width,height/height,1]} scale={[width/1.6,height*.7,3]} url={restate1}/>
+      <Image position={[width/width,-height/2.5,1]} scale={[width/4,height*.28,3]} url={restate2}/>
+      <Image position={[-width/4.8,-height*.65,1.5]} scale={[width/3.6,height/2.5,4]} url={restate11}/>
+      <Image position={[width/30,-height,1]} scale={[width/3.6,height/2.5,3]} url={restate12}/>
+      <Image position={[width/3.5,-height,2]} scale={[width/2.8,height/1.8,3]} url={restate4}/>
+      <Image position={[width/3.6,-height-6.3,1]} scale={[width/2.8,height/2,3]} url={restate20}/>
+      <Image position={[0,-height-7.2,2]} scale={[width/2.8,height/2.5,3]} url={restate24}/>
+      <Image position={[-width/4,-height-8.3,1.5]} scale={[width/2.8,height/2.5,3]} url={restate22}/>
 
 
     </group>
@@ -45,7 +46,7 @@ function Images(){
 }
 const Home = () => {
   return (
-    <>
+    <div className="home-page">
     <Canvas>
     <Suspense fallback={null}>
       <ScrollControls
@@ -72,7 +73,7 @@ const Home = () => {
     <Preload />
     </Suspense>
     </Canvas>
-    </>
+    </div>
   )
 }
 
