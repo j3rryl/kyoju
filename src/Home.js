@@ -1,6 +1,6 @@
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
 import {Image, OrbitControls, Preload, Scroll, ScrollControls, Stars, useScroll} from '@react-three/drei'
-import './home.css'
+import './home.scss'
 import { Suspense, useRef } from "react"
 import restate1 from './images/restate1.jpg'
 import restate2 from './images/restate2.jpg'

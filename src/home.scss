@@ -1,7 +1,7 @@
 .home-page{
     height: 100%;
     width: 96%;
-    margin:0 10px;
+    margin:0px;
 }
 .floating-titles {
     font-size: 3rem;
@@ -9,8 +9,13 @@
 }
 @media screen and (max-width: 800px) {
   .home-page{
-    /* height: 50%;
-    width: 100%;
-    margin:0px; */
+    margin:0 ;
 }
   }
+@media screen and (orientation: landscape) {
+  .home-page{
+    margin:0 ;
+    height: 93%;
+    width: 100%;
+}
+}

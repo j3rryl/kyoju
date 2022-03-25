@@ -53,3 +53,15 @@ input{
 .login-link:hover{
     color:white;
 }
+@media screen and (max-width: 800px)  {
+    @media screen and (orientation: portrait)  {
+        .register-form-container{
+            margin: 0 2vh 0vh 2vh;
+        }
+    } 
+    }
+    @media screen and (orientation: landscape)  {
+        .register-form-container{
+            margin: 0 2vh 0vh 2vh;
+        }
+    }

@@ -4,9 +4,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from "react"
 import './navbar.scss'
 const Navbar = () => {
-    const [mobile,setMobile]=useState([
-        true
-    ])
+    const [mobile,setMobile]=useState(
+        false)
     function toggleMenu(){
         console.log(mobile)
         setMobile(!mobile)
@@ -43,6 +42,9 @@ const Navbar = () => {
         </ul>
     </nav>
     </header>
+    <div className="spacer">
+    &nbsp;
+    </div>
 
     </>
   )

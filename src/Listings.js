@@ -1,7 +1,7 @@
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import { useEffect, useRef, useState } from 'react'
-import './listings.css'
+import './listings.scss'
 
 import nairobi_mini from './images/nairobi.jpg'
 import nairobi from './images/nairobi-city.jpg'

@@ -1,5 +1,5 @@
 .listings-page{
-    height: 100%;
+    height: 96%;
     width: 96%;
     margin:0 10px;
 }
@@ -12,13 +12,12 @@
 }
 .img-container{
     padding-bottom: 10px;
-    height: 70%;
-    width: 65%;
+    height: 65vh;
+    width: 70%;
     background-repeat: no-repeat;
     background-position: center;
     margin:0 auto;
-    position: relative;
-    
+    position: relative;  
 }
 .image-mask{
     visibility: hidden;
@@ -79,3 +78,27 @@
     cursor: pointer;
     border: 1px solid white;
 }
+@media screen and (max-width: 800px)  {
+    @media screen and (orientation: portrait)  {
+    .img-container{
+        margin-top: 5vh;
+        padding-bottom: 10px;
+        height: 25vh;
+        width: 85vw;
+        position: relative;  
+    }
+    .cities-caption{
+        h4{
+            font-size: 3.5vw;
+            // word-spacing: 2vw;
+        }
+        p{
+            font-size: 3.5vw;
+        }
+    }
+
+    }
+
+}
+
+// and (orientation: landscape)
