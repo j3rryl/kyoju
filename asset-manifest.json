@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kyoju/static/css/main.6b464eed.css",
-    "main.js": "/kyoju/static/js/main.f7786563.js",
+    "main.css": "/kyoju/static/css/main.de283ce9.css",
+    "main.js": "/kyoju/static/js/main.266d07e0.js",
     "static/js/787.ee5dac00.chunk.js": "/kyoju/static/js/787.ee5dac00.chunk.js",
     "static/media/mombasa-png.png": "/kyoju/static/media/mombasa-png.1b01912c3a602d8f8907.png",
     "static/media/nairobi.jpg": "/kyoju/static/media/nairobi.af24c9befe9453aa9e8f.jpg",
@@ -23,12 +23,12 @@
     "static/media/restate24.jpg": "/kyoju/static/media/restate24.6b841d8a5f7c7228d2f4.jpg",
     "static/media/kisumu-city.jpg": "/kyoju/static/media/kisumu-city.a1c896e0d2278de2531e.jpg",
     "index.html": "/kyoju/index.html",
-    "main.6b464eed.css.map": "/kyoju/static/css/main.6b464eed.css.map",
-    "main.f7786563.js.map": "/kyoju/static/js/main.f7786563.js.map",
+    "main.de283ce9.css.map": "/kyoju/static/css/main.de283ce9.css.map",
+    "main.266d07e0.js.map": "/kyoju/static/js/main.266d07e0.js.map",
     "787.ee5dac00.chunk.js.map": "/kyoju/static/js/787.ee5dac00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b464eed.css",
-    "static/js/main.f7786563.js"
+    "static/css/main.de283ce9.css",
+    "static/js/main.266d07e0.js"
   ]
 }
